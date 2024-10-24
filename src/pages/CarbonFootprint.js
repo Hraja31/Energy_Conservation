@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { PieChart, Pie, Cell, Legend, Tooltip } from 'recharts';
+import './CarbonFootprint.css';
 
 function CarbonFootprint() {
   const [appliances, setAppliances] = useState([]);
